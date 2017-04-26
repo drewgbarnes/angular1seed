@@ -1,0 +1,17 @@
+<div class="container">
+    <navbar></navbar>
+    <div class="well">
+        <div class="row well" ng-repeat="thing in vm.stuff">
+            <div class="col-md-2">
+                <img src="//placecage.com/100/100">
+            </div>
+            <div class="col-md-9">
+                <h1>{{ thing }}</h1>
+            </div>
+            <div class="col-md-1">
+                <p>{{ thing }}</p>
+            </div>
+        </div>
+    </div>
+    <bottombar></bottombar>
+</div>
